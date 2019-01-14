@@ -7,5 +7,15 @@ pipeline {
             echo "hi cvhetan"
             }
             }
+          stage('Test1') {
+          steps {
+            echo "hi Chaitra"
+            }
+            }
+            stage('Test2') {
+          steps {
+            echo "hi Ridhi"
+            }
+            }
           }
 }
