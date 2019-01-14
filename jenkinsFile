@@ -8,6 +8,9 @@ pipeline {
             }
             }
           stage('Test1') {
+          when {
+            environment name : 'input1', value: 'plan1'
+            }
           steps {
             echo "hi Chaitra"
             }
